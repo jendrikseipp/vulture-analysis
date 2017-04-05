@@ -1,5 +1,5 @@
 This report has been obtained by running vulture over [localstack](https://github.com/atlassian/localstack).
-vulture finds out dead (unused) python code and help you trim down 
+vulture finds out dead (unused) python code and helps you in trimming down 
 your codebase. Please have a look at [vulture](https://github.com/jendrikseipp/vulture) for more information on the same.
 
 #### Perhaps, since they are provided as a part of API, they are user targeted.
