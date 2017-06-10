@@ -35,3 +35,9 @@ Unused code or false-positives:
     
     src/utils/helpers.py:123: Unused function 'make_foobar'
     src/main.py:456: Unused variable 'bar'
+
+There might be false positives, which can be prevented by adding them to a
+whitelist file. You may find more info [here](https://github.com/jendrikseipp/vulture#usage)
+
+Regards,
+vulture team
