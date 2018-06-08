@@ -183,11 +183,10 @@ utils/async.py:81: unused variable 'prio' (60% confidence)
 utils/frozenutils.py:15: unused function 'freezeSupport' (60% confidence)
 ```
 
-#### True Positives
+#### Probably dead code
 
-After inspecting the source code detected by Vulture as dead, we confirmed that
-the following parts indeed aren't being used anywhere and can therefore be
-deleted safely:
+After inspecting the source code that Vulture reports as unused, we believe that
+the following parts indeed aren't used anywhere and could therefore be deleted:
 
 ```
 datasources/available.py:112: unused variable 'nam' (60% confidence)
